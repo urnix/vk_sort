@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+p {
+    font-size: 0.5em;
+    font-family: arial;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+p:first-child {
+    padding-top: 8px;
+}
+
+p:last-child {
+    padding-bottom: 8px;
+}
+
+.container {
+}
+
+.old, .new {
+    width: 303.5px;
+}
+
+.old {
+    float: left;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.new {
+    float: right;
+    background-color: rgba(255, 255, 0, 0.3);
+}
+
+.progress {
+    clear: both;
+}
+
+.progress p {
+    background-color: rgba(0, 128, 0, 0.3);
+}
+
+.progress p.skip {
+    background-color: rgba(0, 128, 255, 0.3);
+}
